@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-af&27t!v=h73$mx9=5t)&u7#!yy19udvqnz6*#fpem=vta9uyp'
+SECRET_KEY = '************************************'
 
 DEBUG = True
 
@@ -57,8 +57,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'music_app_db',
-        'USER': 'postgres',
-        'PASSWORD': 'BEPostgreS88',
+        'USER': '****',
+        'PASSWORD': '*************',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
